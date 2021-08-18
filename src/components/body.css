@@ -39,6 +39,9 @@
     font-size: 12px;
     text-align: center;
   }
+  .container img {
+    width: 15%;
+  }
 }
 
 @media (max-width: 600px) {
