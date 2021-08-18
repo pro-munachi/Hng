@@ -8,7 +8,7 @@ const Body = () => {
 
     return (
         <div className='container'>
-                <img className='container-image' src='/Images/muna.jpg' alt='muna'/>
+                
             <div className='text'>
                 <h1>{name}</h1>
                 <p>{role}</p>
