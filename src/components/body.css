@@ -1,0 +1,48 @@
+.container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.container img {
+  border-radius: 15em;
+  width: 25%;
+}
+
+.container .text {
+  margin: auto 20px;
+}
+
+.container .text h1 {
+  font-size: 45px;
+  margin: 0;
+  color: rgb(32, 120, 178);
+}
+
+.container .text p {
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .container .text h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .container .text p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}

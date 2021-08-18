@@ -1,0 +1,76 @@
+.bottom {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 25%;
+  text-align: left;
+}
+
+.right {
+  width: 70%;
+  text-align: left;
+}
+
+.line {
+  border-left: 2px solid grey;
+  padding-left: 20px;
+  margin-left: -18px;
+}
+
+.line span {
+  color: black;
+  font-weight: 600;
+}
+
+h4 {
+  color: rgb(32, 120, 178);
+  font-size: large;
+}
+li {
+  margin: 0;
+  color: rgb(32, 120, 178);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  color: black;
+}
+
+.education h3 {
+  color: black;
+}
+
+.contact span {
+  color: rgb(32, 120, 178);
+  font-weight: 600;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .bottom {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
