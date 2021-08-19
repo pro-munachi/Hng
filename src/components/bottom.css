@@ -60,6 +60,7 @@ h3 {
 @media (max-width: 1000px) {
   .bottom {
     flex-direction: column;
+    width: 90%;
   }
   .left {
     width: 100%;
@@ -72,5 +73,11 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .bottom {
+    width: 95%;
   }
 }

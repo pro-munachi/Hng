@@ -34,6 +34,8 @@ const Bottom = () => {
                         <p><span>Linkedin:</span> <a href='https://www.linkedin.com/in/munachiso' target='_blank' rel='noopener noreferrer' >
                         munachiso</a></p>
                         <p><span>Phone:</span><a href='(+234)8165998708' target='_blank' rel='noopener noreferrer' > +234 8165 9987 08</a></p>
+                        <p><span>HNG Internship</span> <a href='https://www.internship.zuri.team' target='_blank' rel='noopener noreferrer' >
+                        HNG Internship Link</a></p>
                     </div>
                 </div>
             </div>

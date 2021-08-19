@@ -28,6 +28,7 @@
 
 @media (max-width: 1000px) {
   .container {
+    width: 90%;
   }
   .container .text h1 {
     font-size: 25px;
